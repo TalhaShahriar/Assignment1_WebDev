@@ -145,6 +145,97 @@ nav {
     color: #202020;
 }
 
+/* Skills section */
+#skills {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.skill-card1 {
+    background-color: #fff6f4;
+    border-radius: 8px;
+    padding: 25px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card2 {
+    background-color: #f3f6fd;
+    border-radius: 8px;
+    padding: 25px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card3 {
+    background-color: #fffdf3;
+    border-radius: 8px;
+    padding: 25px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.target_description {
+    font-size: small;
+    align-items: flex-start;
+}
+
+.btn-learnmore2 {
+    text-decoration: none;
+    text-align: left;
+}
+
+/* Support section */
+#support {
+    padding: 60px 0;
+    background-image: url('assets/handshake.jpg');
+    background-size: cover;
+    border-radius: 15px;
+    background-position: center;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}    
+
+.feedback-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.feedback-input {
+    width: 548px;
+    height: 49px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.btn-submit {
+    font-size: 20px;
+    font-weight: 640;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #1a1a1a;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Sections margin */
+#skills, #support {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
 /* Responsive design for Web Development section */
 @media (max-width: 768px) {
     .flex-container {
