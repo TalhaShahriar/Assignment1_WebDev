@@ -68,6 +68,30 @@ nav {
     transition: background-color 0.3s ease;
     font-size: 20px;
 }
+.btn-learnmore{
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #4e4e4e;
+    border-radius: 1px;
+    background-color: #ffffff;
+    color: #202020;
+}
+
+.btn-submit {
+    font-size: 20px;
+    font-weight: 640;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #1a1a1a;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-learnmore2{
+    text-decoration: none;
+    text-align: left;
+}
 
 /* Hero section */
 #hero {
@@ -136,14 +160,28 @@ nav {
     background-color: none;
 }
 
-.btn-learnmore {
-    font-size: 16px;
-    font-weight: 600;
-    border: 2px solid #4e4e4e;
-    border-radius: 1px;
-    background-color: #ffffff;
-    color: #202020;
+/* Inspiration section */
+#inspiration {
+    padding: 60px 0;
 }
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 10px 20px;
+    background-color: #e9e9e9;
+    border-radius: 12px;
+    padding: 25px;
+}
+.video-container iframe {
+border-radius: 12px;
+}
+
 
 /* Skills section */
 #skills {
@@ -187,10 +225,7 @@ nav {
     align-items: flex-start;
 }
 
-.btn-learnmore2 {
-    text-decoration: none;
-    text-align: left;
-}
+
 
 /* Support section */
 #support {
@@ -218,15 +253,43 @@ nav {
     border-radius: 8px;
 }
 
-.btn-submit {
-    font-size: 20px;
-    font-weight: 640;
+
+.feedback-input {
+    width: 548px;
+    height: 49px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    font-weight: bold;
+    background-color: #e0e0e0;
+    color: #000000;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.social-links a {
     text-decoration: none;
-    background-color: #ffffff;
-    color: #1a1a1a;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
 }
 
 /* Sections margin */
@@ -238,6 +301,18 @@ nav {
 
 /* Responsive design for Web Development section */
 @media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo, .btn-resume {
+        margin-bottom: 10px;
+    }
+
+    #hero h2 {
+        font-size: 30px;
+    }
     .flex-container {
         flex-direction: column;
     }
@@ -253,18 +328,3 @@ nav {
     }
 }
 
-/* Responsive design */
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .logo, .btn-resume {
-        margin-bottom: 10px;
-    }
-
-    #hero h2 {
-        font-size: 30px;
-    }
-}
