@@ -93,19 +93,30 @@ nav {
 }
 
 .btn-learnmore2{
-    text-decoration: none;
-    text-align: right;
+    text-decoration: underline;
     text-align: left;
-   
+    font-size: small;
+    color: #161616;
+    font-weight: bold;
 }
 
 .size{
     margin-top: 80px;
     font-size: larger;
+    margin-bottom: 15px;
 }
 
 .size2{
     font-size: xx-large;
+}
+
+.small{
+  font-size: small;
+}
+
+.hcjs{
+    margin-top: 13px;
+    margin-bottom: 13px;
 }
 
 .bg{
